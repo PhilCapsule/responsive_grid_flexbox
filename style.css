@@ -58,6 +58,48 @@ h1 {
     margin-bottom: 15px;
 }
 
+aside {
+    padding: 20px;
+    background-color: #EDB88B;
+    color: whitesmoke;
+
+}
 
 
+aside p {
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+footer {
+    grid-column: span 3;
+    padding: 30px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #2e282a;
+    color: whitesmoke;
+}
+
+/* --------> Media >1000px */ 
+ @media screen and (max-width: 1000px) {
+     .container-grille {
+         display: flex;
+         flex-direction: column;
+     }
+     .liste-sidenav {
+         flex-direction: row;
+         justify-content: center;
+     }
+     .liste-sidenav li {
+         margin: 0 10px;
+     }
+
+     main p {
+         min-height: 610px;
+     }
+     aside p {
+         height: auto;
+     }
+ }
