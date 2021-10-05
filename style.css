@@ -22,11 +22,41 @@ header {
     text-align: center;
     font-size: 22px;
     background-color: #17BEBB;
-    
+    color: whitesmoke;
 }
 
 
 
+nav {
+    background-color: #af2821c9;
+}
+
+.liste-sidenav {
+    list-style-type:none;
+    max-height: 650px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.liste-sidenav li {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.liste-sidenav li a {
+    font-size: 18px;
+    color: #F1F1F1;
+}
+
+main {
+    padding: 20px;
+}
+h1 {
+    margin-bottom: 15px;
+}
 
 
 
